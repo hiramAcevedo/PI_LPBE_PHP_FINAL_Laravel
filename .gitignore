@@ -1,0 +1,58 @@
+# Laravel específico
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+/bootstrap/cache/*.php
+.env
+.env.backup
+.env.*.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+
+# Archivos de logs
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.pnpm-debug.log
+
+# Archivos generados por SQLite
+*.sqlite
+*.sqlite-journal
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# IDEs y editores
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+/.phpactor.json
+*.sublime-project
+*.sublime-workspace
+/.netbeans
+/.sass-cache
+
+# Archivos de caché y compilados
+.phpactor.json
+*.cache
+.php_cs.cache
+.php-cs-fixer.cache
+.phpstan.result.cache
+
+# Directorios de dependencias que podrían ser instalados localmente
+/coverage
+/dist
+/build
+/public/css
+/public/js
